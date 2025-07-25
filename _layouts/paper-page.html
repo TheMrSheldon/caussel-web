@@ -1,0 +1,12 @@
+---
+layout: page
+---
+
+<article style="color: gray;font-size: smaller;font-style: italic;hyphens: auto;text-align: justify;margin: 0pt 10pt;">
+    {{ page.abstract }}
+</article>
+
+{{ page.content }}
+
+<h1>Citation</h1>
+{% reference page.bibkey --file {{page.bibfile}} %}
